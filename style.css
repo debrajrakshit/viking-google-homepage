@@ -1,0 +1,54 @@
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000;
+	background-color: #fff;
+}
+a{
+	color: #666;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.navbar{
+	height: 60px;
+	padding: 1px 24px;
+	text-align: right;
+}
+.vc-nav-link{
+	line-height: 60px;
+	vertical-align: middle;
+	margin: 0 6px;
+}
+.vc-nav-icon{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+	height: 30px;
+	width: 30px;
+	background-image: url('images/i1_1967ca6a.png');
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+    opacity: .55;
+    text-decoration: none;
+    cursor: default;
+}
+.vc-nav-button{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 6px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 28px;
+	padding: 0 12px;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	cursor: default;
+}
+.vc-nav-button:hover{
+	text-decoration: none;
+	transition: all ease-in-out 0.1s;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+}
