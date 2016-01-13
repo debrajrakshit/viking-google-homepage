@@ -50,5 +50,78 @@ a:hover{
 .vc-nav-button:hover{
 	text-decoration: none;
 	transition: all ease-in-out 0.1s;
-	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+}
+.search-container{
+	width: 1139px;
+	margin: 0 auto;
+	margin-top: 29px;
+}
+.logo-wrapper{
+	text-align: center;
+	padding-top: 109px;
+}
+.search-bar-wrapper{
+	width: 584px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+.vc-search-wrapper{
+	width: 100%;
+	padding: 5px 9px 0;
+	height: 38px;
+	overflow: hidden;
+	border: 1px solid #d9d9d9;
+}
+.vc-search-wrapper:hover{
+	border-color: #A0A0A0;
+}
+.vc-search{
+	position: absolute;
+	width: 525px;
+	padding: 5px;
+	height: auto;
+	font-size: 18px;
+	border: 0;
+}
+.vc-search:focus{
+	border: none;
+	box-shadow: none;
+}
+.vc-mic{
+	display: inline-block;
+	float: right;
+	width: 17px;
+	height: 23px;
+	margin-top: 4px;
+	background-image: url('images/microphone.png');
+	background-size: 24px 24px;
+	background-position: -3px 0;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+.search-buttons-wrapper{
+	width: 584px;
+	margin: 0 auto;
+	padding-top: 18px;
+	text-align: center;
+}
+.vc-search-button{
+	min-width: 54px;
+	height: 36px;
+	line-height: 27px;
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	color: #757575;
+	font-weight: bold;
+	border-radius: 2px;
+	margin: 11px 4px;
+	padding: 0 16px;
+}
+.vc-search-button:hover{
+	border-color: #c6c6c6;
+	color: #000;
+	transition: all ease-in-out 0.1s;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
 }
